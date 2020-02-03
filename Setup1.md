@@ -3,8 +3,7 @@ los pasos para instalar el ambiente de desarrollo para aplicaciones de consola e
 
 ## Instalación de dotnet core 2.2.
 ![justmock__net_770](https://user-images.githubusercontent.com/60378108/73618093-dad78a80-45d9-11ea-9421-c82b9796e946.png)
-#### 1) Descargar de la pagina ofiacial de Microsoft [code.visualstudio.com](https://code.visualstudio.com/)
-
+#### 1) Descargar de la pagina ofiacial de Microsoft [dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 ![image](https://user-images.githubusercontent.com/60378108/73618262-3eae8300-45db-11ea-88d4-515067551f83.png)
 
 #### 2) Selecciona el SDK para el desarrollo de nuestros programas
@@ -22,7 +21,7 @@ los pasos para instalar el ambiente de desarrollo para aplicaciones de consola e
 ## Instalación y configuración de Visual Studio Code para C#.
 ![vscode](https://user-images.githubusercontent.com/60378108/73618098-e7f47980-45d9-11ea-817d-1b1af071b03b.png)
 
-#### 1) Descarga Visual Studios Code
+#### 1) Descarga Visual Studios Code de la pagina ofiacial [code.visualstudio.com](https://code.visualstudio.com/)
 ![image](https://user-images.githubusercontent.com/60378108/73618436-9d283100-45dc-11ea-9dec-6e47d76f96de.png)
 
 #### 2)Instalar Visual Studio Code en Windows
@@ -55,6 +54,8 @@ La primera vez que se abre Visual Studio Code tras la instalación, se muestra u
 
 
 ## Instalación de git. conectado a tu cuenta de GitHub y VSC.
+
+[git-scm.com/downloads](https://git-scm.com/downloads)
 ![image](https://user-images.githubusercontent.com/60378108/73618684-3dcb2080-45de-11ea-8c39-5e12dccfc0eb.png)
 
 #### 1)Clonar un repositorio de GitHub localmente
