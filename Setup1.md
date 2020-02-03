@@ -3,7 +3,8 @@ los pasos para instalar el ambiente de desarrollo para aplicaciones de consola e
 
 ## Instalación de dotnet core 2.2.
 ![justmock__net_770](https://user-images.githubusercontent.com/60378108/73618093-dad78a80-45d9-11ea-9421-c82b9796e946.png)
-#### 1) Descargar de la pagina ofiacial de Microsoft
+#### 1) Descargar de la pagina ofiacial de Microsoft [code.visualstudio.com](https://code.visualstudio.com/)
+
 ![image](https://user-images.githubusercontent.com/60378108/73618262-3eae8300-45db-11ea-88d4-515067551f83.png)
 
 #### 2) Selecciona el SDK para el desarrollo de nuestros programas
