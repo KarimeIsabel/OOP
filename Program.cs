@@ -10,7 +10,27 @@ namespace Pelicula
         private string pais;
         private string director;
         
-         //Metodos
+        //constructores
+        public Pelicula(string titulo1,Int16 año1,string pais1, string director1)
+        {
+            this.titulo=titulo1;
+            this.año=año1;
+            this.pais=pais1;
+            this.director=director1;
+        }
+
+        public Pelicula()
+        {
+            titulo="El viaje de chihiro";
+            año=2001;
+            
+        }
+
+        //Metodos
+        public void imprimir()
+        {
+            Console.WriteLine(titulo,año);
+        }
         public string gettitulo()
         {
             return titulo;
@@ -32,21 +52,12 @@ namespace Pelicula
     {
         static void Main(string[] args)
         {
-           //Objetos
-           Pelicula p1= new Pelicula();
-           p1.settitulo("El viaje de chijiro");
-           p1.setaño(2001);
-
-           Pelicula p2= new Pelicula();
-           p2.settitulo("Toy Story 4");
-           p2.setaño(2019);
-
-// Impresiones
-System.Console.WriteLine("Titulo: "+p1.gettitulo()+"\nAño: "+p1.getaño());
-System.Console.WriteLine("Titulo: "+p2.gettitulo()+"\nAño: "+p2.getaño());
-
-
-
+            
+            Pelicula p1= new Pelicula("El viaje de chihiro",2001,"Japon","Hayao Miyazaki");
+           Pelicula p2= new Pelicula("Toy Story 4",2019,"USE","Josh Cooley");
+           p1.imprimir();
+           p2.imprimir();
+           
         }
     }
 }
