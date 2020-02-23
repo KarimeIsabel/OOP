@@ -1,0 +1,11 @@
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.exe
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.deps.json
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.runtimeconfig.json
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.runtimeconfig.dev.json
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.dll
+C:\Users\HP\Repositorios\OOP\ListPeliculas\bin\Debug\netcoreapp3.1\ListPeliculas.pdb
+C:\Users\HP\Repositorios\OOP\ListPeliculas\obj\Debug\netcoreapp3.1\ListPeliculas.csprojAssemblyReference.cache
+C:\Users\HP\Repositorios\OOP\ListPeliculas\obj\Debug\netcoreapp3.1\ListPeliculas.AssemblyInfoInputs.cache
+C:\Users\HP\Repositorios\OOP\ListPeliculas\obj\Debug\netcoreapp3.1\ListPeliculas.AssemblyInfo.cs
+C:\Users\HP\Repositorios\OOP\ListPeliculas\obj\Debug\netcoreapp3.1\ListPeliculas.dll
+C:\Users\HP\Repositorios\OOP\ListPeliculas\obj\Debug\netcoreapp3.1\ListPeliculas.pdb
