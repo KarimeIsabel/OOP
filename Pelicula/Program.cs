@@ -8,11 +8,6 @@ namespace Peliculas
          private int Año;
          private string Pais;
          private string Director;
-        //atributos
-        private  string  titulo;
-        private Int16 año;
-        private string pais;
-        private string director;
         
          //Metodos
         public string gettitulo()
