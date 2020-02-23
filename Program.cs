@@ -1,63 +1,39 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Pelicula
+namespace ListPeliculas
 {
-    class Pelicula
+    public class Pelicula
     {
-         //atributos
-        private  string  titulo;
-        private Int16 año;
-        private string pais;
-        private string director;
-        
-        //constructores
-        public Pelicula(string titulo1,Int16 año1,string pais1, string director1)
+        private string Nombre;
+        private Int16 Año;
+        public Pelicula(string nombre, Int16 año)
         {
-            this.titulo=titulo1;
-            this.año=año1;
-            this.pais=pais1;
-            this.director=director1;
+            this.Nombre= nombre;
+            this.Año=año;
         }
-
-        public Pelicula()
+        public void imprime()
         {
-            titulo="El viaje de chihiro";
-            año=2001;
-            
-        }
-
-        //Metodos
-        public void imprimir()
-        {
-            Console.WriteLine(titulo,año);
-        }
-        public string gettitulo()
-        {
-            return titulo;
-        }
-        public void settitulo(string Titulo)
-        {
-            titulo=Titulo;
-        }
-        public Int16 getaño() 
-        {
-            return año;
-        }
-        public void setaño(Int16 Año)
-        {
-            año=Año;
+            Console.WriteLine("Titulo: "+Nombre);
+            Console.WriteLine("Año: "+ Año);
         }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
+            List<Pelicula> p1=new List<Pelicula>();
+            p1.Add(new Pelicula("El viaje de chihiro",2001));
+            p1.Add(new Pelicula ("Toy Story 4",2019));
+            p1.Add(new Pelicula("La lista de Schindler",1993));
+            p1.Add(new Pelicula ("Gladiator",2000));
+            p1.Add(new Pelicula("El Señor de los Anillos: el retorno del Rey",2003));
             
-            Pelicula p1= new Pelicula("El viaje de chihiro",2001,"Japon","Hayao Miyazaki");
-           Pelicula p2= new Pelicula("Toy Story 4",2019,"USE","Josh Cooley");
-           p1.imprimir();
-           p2.imprimir();
-           
+            foreach(Pelicula año in p1)
+            {
+                año.imprime();
+            }
         }
     }
 }
