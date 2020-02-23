@@ -4,6 +4,6 @@
 
 [Trabajo 1](Setup1.md)
 
-[Trabajo 2](Program.cs)
+[Trabajo 2](Pelicula/Program.cs)
 
 [Trabajo 3](ListPeliculas/Program.cs)
